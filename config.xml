@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<configuration version="1.0">
+    <property name="default_screen_factory"             value="com.aviarc.framework.toronto.screen.ScreenFactoryImpl" />
+    <property name="default_widget_factory"             value="com.aviarc.framework.toronto.widget.DefaultWidgetProviderFactoryImpl" />
+    <property name="default_widget_urn"                 value="urn:aviarc:widget:com.aviarc.toronto.widget.core:2" />
+</configuration>

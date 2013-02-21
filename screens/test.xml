@@ -1,0 +1,35 @@
+<screen xmlns:action="urn:aviarc:widget:com.aviarc.toronto.widget.core.action:1" xmlns:app="urn:aviarc:widget:application">
+    <lazy-load name="lazy-bastard">
+        <group-box width="541" height="212" left="436" top="47" title="Stuff" name="stuff">
+            <record-table width="356" height="70" left="32" top="36" dataset="var">
+                
+            </record-table>        
+        </group-box>
+    </lazy-load>
+    
+    <lazy-render-container width="541" height="212" left="436" top="347" visible="n" name="lazy-stuff">
+        <group-box top="0" bottom="0" left="0" right="0" title="More Stuff" name="More Stuff">
+            <record-table width="356" height="70" left="32" top="36" dataset="var">
+                
+            </record-table>        
+        </group-box>
+    </lazy-render-container>
+    
+    <button width="100" height="26" left="104" top="63" label="Show Stuff">
+        <action:when event="onclick">
+            <app:rerender widget="lazy-bastard"/>
+        </action:when>
+    </button>
+    
+    
+    <button width="100" height="26" left="104" top="163" label="Show More Stuff">
+        <action:when event="onclick">
+            <action:call-widget-method method="lazy-stuff.show"/>
+        </action:when>
+    </button>
+    <button width="100" height="26" left="104" top="213" label="Hide More Stuff">
+        <action:when event="onclick">
+            <action:call-widget-method method="lazy-stuff.hide"/>
+        </action:when>
+    </button>
+</screen>

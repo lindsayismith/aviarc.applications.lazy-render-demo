@@ -1,4 +1,0 @@
-<widget name="lazy-render-container"  container-positioning="y" factory-class="com.aviarc.framework.toronto.widget.DefaultWidgetProviderFactoryImpl">
-    
-    <children allowed="y"/>
-</widget>

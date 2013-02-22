@@ -1,0 +1,3 @@
+<widget name="gittest" factory-class="lindsay.git.GitCheckoutWidgetProvider">
+    <clone-git-repo repo="git://github.com/lindsayismith/aviarc.widgets.lazy-load-utils.git" path=""/>    
+</widget>

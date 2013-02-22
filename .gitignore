@@ -2,3 +2,6 @@
 .project
 bin/
 .clonedRepos
+widgets/lazy-load
+widgets/lazy-render-container
+widgets/rerender
